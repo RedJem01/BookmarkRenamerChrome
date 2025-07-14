@@ -1,0 +1,14 @@
+{
+    "name": "Bookmark Renamer",
+    "description": "A Chrome extension for renaming Chrome bookmarks to be easy to read.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": "bookmark.png"
+    },
+    "background": {
+        "service_worker": "background.ts",
+        "type": "module"
+    }
+  }
